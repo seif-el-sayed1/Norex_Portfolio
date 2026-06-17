@@ -2,15 +2,15 @@ import { motion } from 'framer-motion';
 
 function About({ lang }) {
   const isAr = lang === 'ar';
-
+  
   const content = isAr 
     ? [
-        'في Norex، نهندس حلولاً برمجية متكاملة تدفع المؤسسات نحو الصدارة. نحن نتخصص في ابتكار الأنظمة المؤسسية الذكية، والتطبيقات فائقة الأداء التي تعيد تعريف كفاءة العمليات وأتمتتها بالكامل.',
-        'نحول الأفكار الطموحة إلى واقع رقمي يتميز ببنية تحتية قوية، أمان صارم، وقدرة مرنة على التوسع؛ ليكون نظامك البرمجي شريكاً استراتيجياً يضمن لك تفوقاً مستداماً في السوق الرقمي.'
+        'في Norex، نهندس حلولاً برمجية متكاملة تدفع المؤسسات نحو الصدارة. نحن نتخصص في ابتكار الأنظمة المؤسسية وتطوير تطبيقات الويب والجوال مع دمج ميزات الذكاء الاصطناعي (AI) المخصصة لرفع كفاءة عملياتك.',
+        'نحول الأفكار الطموحة إلى واقع رقمي يتميز ببنية تحتية قوية، تقنيات ذكية، وأمان صارم؛ ليكون نظامك البرمجي شريكاً استراتيجياً يضمن لك تفوقاً مستداماً في السوق الرقمي.'
       ]
     : [
-        'At Norex, we engineer comprehensive software solutions that propel enterprises forward. We specialize in architecting smart enterprise systems and high-performance applications designed to redefine operational efficiency.',
-        'We transform ambitious visions into secure, robust, and scalable digital realities—ensuring your software acts as a core strategic asset that delivers a sustainable competitive edge.'
+        'At Norex, we engineer comprehensive software solutions that propel enterprises forward. We specialize in building enterprise systems, web, and mobile applications integrated with custom AI features to maximize operational efficiency.',
+        'We transform ambitious visions into secure, intelligent, and scalable digital realities—ensuring your software acts as a core strategic asset that delivers a sustainable competitive edge.'
       ];
 
   return (

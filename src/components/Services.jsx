@@ -42,6 +42,20 @@ function Services({ lang }) {
       desc: isAr 
         ? 'تطوير تطبيقات جوال احترافية لـ iOS و Android باستخدام React Native أو Flutter. تجارب مستخدم سلسة، أداء عالي، ودعم كامل للعمل بدون إنترنت مع إشعارات فورية وميزات متقدمة.' 
         : 'Professional cross-platform mobile apps for iOS and Android using React Native and Flutter. Beautiful, fast, and reliable experiences with offline support, push notifications, and advanced features.'
+    },
+    {
+      number: "04",
+      icon: (
+        <svg className="w-9 h-9" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+          <path d="M12 2v4M12 18v4M4 12h4M16 12h4"/>
+          <path d="M6.34 6.34l2.83 2.83M14.83 14.83l2.83 2.83M6.34 17.66l2.83-2.83M14.83 9.17l2.83-2.83"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+      ),
+      title: isAr ? 'دمج الذكاء الاصطناعي' : 'AI Integration',
+      desc: isAr
+        ? 'نطور وندمج أدوات وميزات الذكاء الاصطناعي مباشرةً داخل نظامك المؤسسي أو تطبيقك، لتحويل العمليات التقليدية إلى وظائف ذكية تعمل تلقائياً وتسهل إدارة عملك.'
+        : 'We develop and integrate custom AI features directly into your enterprise system or application, transforming traditional workflows into smart, automated operations.'
     }
   ];
 
