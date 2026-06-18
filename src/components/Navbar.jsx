@@ -1,4 +1,3 @@
-// /home/workdir/artifacts/src/components/Navbar.jsx
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -8,11 +7,10 @@ function Navbar({ lang, toggleLang }) {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
 
-  // Smooth Scroll Function
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
-      const offset = 80; // navbar height compensation
+      const offset = 80;
       const bodyRect = document.body.getBoundingClientRect().top;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition - bodyRect - offset;
@@ -25,7 +23,6 @@ function Navbar({ lang, toggleLang }) {
     setIsOpen(false);
   };
 
-  // Active Section Observer
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -57,11 +54,8 @@ function Navbar({ lang, toggleLang }) {
         
         {/* Logo */}
         <div className="flex items-center gap-3 z-50">
-          <div className="flex gap-1">
-            <div className="w-3 h-3 bg-[#00F299] rounded-sm"></div>
-            <div className="w-3 h-3 bg-[#00F299]/60 rounded-sm"></div>
-          </div>
-          <span className="text-3xl font-black tracking-tighter text-white">Norex</span>
+          <img src="/logo.png" alt="Norex" className="h-8 md:h-10 w-auto" />
+          <span className="text-2xl md:text-3xl font-black tracking-tighter text-white">Norex</span>
         </div>
 
         {/* Desktop Navigation */}
