@@ -53,7 +53,7 @@ function Navbar({ lang, toggleLang }) {
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-5 flex items-center justify-between bg-[#0D1F13]/95 backdrop-blur-xl border-b border-white/10">
         
         {/* Logo */}
-        <div className="flex items-center gap-3 z-50">
+        <div className="flex items-center gap-3 z-50" dir="ltr">
           <img src="/logo.png" alt="Norex" className="h-8 md:h-10 w-auto" />
           <span className="text-2xl md:text-3xl font-black tracking-tighter text-white">Norex</span>
         </div>
