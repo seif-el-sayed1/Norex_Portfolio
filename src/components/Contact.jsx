@@ -147,10 +147,10 @@ function Contact({ lang }) {
                 {isAr ? 'البريد الإلكتروني' : 'EMAIL'}
               </div>
               <a
-                href="mailto:seifsayed121@gmail.com"
+                href="mailto:norex.software.dev@gmail.com"
                 className="text-[#00F299] hover:underline text-xl font-semibold"
               >
-                seifsayed121@gmail.com
+                norex.software.dev@gmail.com
               </a>
             </div>
 
@@ -168,7 +168,7 @@ function Contact({ lang }) {
                 {isAr ? 'لينكدإن' : 'LINKEDIN'}
               </div>
               <a
-                href="https://www.linkedin.com/in/seif-el-sayed-a8452a31a/"
+                href="https://www.linkedin.com/company/norex-software/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#00F299] hover:underline text-xl font-semibold"
