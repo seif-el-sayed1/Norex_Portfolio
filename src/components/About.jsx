@@ -5,12 +5,12 @@ function About({ lang }) {
   
   const content = isAr 
     ? [
-        'في Norex، نهندس حلولاً برمجية متكاملة تدفع المؤسسات نحو الصدارة. نحن نتخصص في ابتكار الأنظمة المؤسسية وتطوير تطبيقات الويب والجوال مع دمج ميزات الذكاء الاصطناعي (AI) المخصصة لرفع كفاءة عملياتك.',
-        'نحول الأفكار الطموحة إلى واقع رقمي يتميز ببنية تحتية قوية، تقنيات ذكية، وأمان صارم؛ ليكون نظامك البرمجي شريكاً استراتيجياً يضمن لك تفوقاً مستداماً في السوق الرقمي.'
+        'في Norex، نبني حلولاً رقمية مبتكرة تساعد الشركات على تحويل أفكارها إلى منتجات وأنظمة حقيقية تحقق نتائج ملموسة. نطوّر تطبيقات الويب والجوال والأنظمة المؤسسية، ونعززها بميزات ذكاء اصطناعي مدمجة ومصممة خصيصاً لاحتياجات الأعمال، مما يساهم في رفع الإنتاجية وتحسين تجربة المستخدم وتسريع النمو.',
+        'نسعى لأن تكون Norex شريكاً تقنياً موثوقاً للشركات الطموحة، من خلال تقديم حلول تجمع بين الجودة، الأداء، والأمان، وتساهم في بناء مستقبل رقمي أكثر تطوراً.'
       ]
     : [
-        'At Norex, we engineer comprehensive software solutions that propel enterprises forward. We specialize in building enterprise systems, web, and mobile applications integrated with custom AI features to maximize operational efficiency.',
-        'We transform ambitious visions into secure, intelligent, and scalable digital realities—ensuring your software acts as a core strategic asset that delivers a sustainable competitive edge.'
+        'At Norex, we build innovative digital solutions that help businesses transform their ideas into real products and systems that deliver measurable results. We develop web applications, mobile apps, and enterprise systems, enhanced with custom AI-powered features tailored to business needs, helping increase productivity, improve user experiences, and accelerate growth.',
+        'We strive to be a trusted technology partner for ambitious businesses by delivering solutions that combine quality, performance, and security while helping shape a more advanced digital future.'
       ];
 
   return (
